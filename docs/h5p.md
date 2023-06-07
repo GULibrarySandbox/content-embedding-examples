@@ -26,6 +26,7 @@ To embed a H5P module into GitHub:
 
 Here's an example: 
 
-Again, note: You can see the material here, but it is hosted on H5P.com! If H5P.com were to be unavailable this content could not be seen!
-{: .note }
+<iframe src="https://griffith.h5p.com/content/1291436430555436329/embed" aria-label="Majicke Johnsohne" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://griffith.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
+Again, note: You can see the material here, but it is hosted on H5P.com! If H5P.com were to be unavailable this content could not be seen!
+{:. .note }

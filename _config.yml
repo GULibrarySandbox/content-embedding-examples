@@ -1,5 +1,5 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Web content embedding
+description: A simple site explaining how to embd various types of web content in a GitHub site
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
