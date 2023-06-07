@@ -24,9 +24,10 @@ To embed and Articulate Rise module into GitHub:
 10. Copy the contents of the decompressed folder into the new folder in your repository. Don't copy the folder, just its contents!
 11. Commit your changes and wait for the publish Action to run.
 
+Note that Articulate Rise content needs to display in full screen. It can't be embedded inside a page that contains other content.
+{:. .note }
+
 Here's an example: 
 
-[Link to rise content](docs/rise/index.html)
+[Link to rise content](rise/index.html)
 
-Again, note: 
-{:. .note }
