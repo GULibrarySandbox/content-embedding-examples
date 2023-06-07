@@ -26,7 +26,7 @@ To embed and Articulate Rise module into GitHub:
 
 Here's an example: 
 
-![Link to rise content](docs/rise/index.html)
+[Link to rise content](docs/rise/index.html)
 
 Again, note: 
 {:. .note }
