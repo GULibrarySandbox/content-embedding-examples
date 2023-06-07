@@ -6,3 +6,21 @@ url: https://just-the-docs.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# Define callout colours and titles
+callouts:
+  warning:
+    title: Warning
+    color: red
+  info:
+    title: Info
+    color: blue
+  success:
+    title: Success
+    color: green
+  highlight:
+    title: Important
+    color: yellow
+  note:
+    title: note
+    color: purple
