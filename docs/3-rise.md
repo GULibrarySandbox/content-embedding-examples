@@ -27,7 +27,12 @@ To embed and Articulate Rise module into GitHub:
 Note that Articulate Rise content needs to display in full screen. It can't be embedded inside a page that contains other content.
 {:. .note }
 
-Here's an example: 
+Here's an example:
+
+<div style="margin: 0 auto; width:100%; height:400px;">
+    <object type="text/html" data="rise/index.html"
+            style="width:100%; height:100%; margin:1%;">
+    </object>
+</div>
 
 [Link to rise content](rise/index.html)
-
