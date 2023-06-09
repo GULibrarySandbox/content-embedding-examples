@@ -17,13 +17,18 @@ Rise courses can be viewed on Articulate's servers or they can be exported and e
 {: .fs-6 .fw-300 }
 <!-- You can style the preceding line using .fs for font size and .fw for font weight -->
 
+Nerdy tip: The product and company called 'Articulate' is [pronounced with a long 'a' at the end](https://community.articulate.com/discussions/articulate-storyline/articulate-pronunciation), like 'late'!
+{:. .note }
+
 Although it's less work to simply leave your Rise course on the Articulate website, there are significant downsides to that approach: 
 
 - You can't incorporate the content into an existing course or page.
 - Branding options are limited.
-- **Important**: You can't make draft edits to your work without i being seen immediately by students.
+- **Important**: You can't make draft edits to your work without it being seen immediately by students.
 
-Thus, it's better to export your Rise content and host it somewhere that you control, for example on a GitHub site. If you want to display Articulate Rise content on a GitHub site, you have two options. The most common approach is to create a repository dedicated solely to the Rise course. Alternatively, you can embed the Rise course inside a page on an existing repository. This might be a good option if the Rise course forms only a part of what you want to present to the student.
+Thus, it's better to export your Rise content and host it somewhere that you control, for example on a GitHub site. 
+
+If you want to display Articulate Rise content on a GitHub site, you have two options. The most common approach is to create a repository dedicated solely to the Rise course. Alternatively, you can embed the Rise course inside a page on an existing repository. This might be a good option if the Rise course forms only a part of what you want to present to the student.
 
 ## Creating a dedicated repository for your Rise course
 
@@ -41,9 +46,14 @@ Here's a short video illustrating the process:
 
 <iframe src="https://player.vimeo.com/video/774945468?h=cd1b35bb2c" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+> Here's an example of how a Rise lesson looks in a dedicated repository:
+
+[Finding Cases](https://griffithunilibrary.github.io/finding-cases/)
+{: .btn }
+
 ### Google Analytics
 
-To connect your site to Griffith Library's Google Analytics account, you need to add the following code snippet to `index.html`.
+To connect your site to Griffith Library's Google Analytics account, you need to add the following code snippet to the `<head>` section of `index.html`.
 
 ```
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -58,11 +68,6 @@ To connect your site to Griffith Library's Google Analytics account, you need to
     </script>
 ```
 
-> Here's an example of how a Rise lesson looks in a dedicated repository:
-
-[Finding Cases](https://github.com/GriffithUniLibrary/finding-cases)
-{: .btn }
-
 ---
 
 ## Displaying a Rise course in its own page
@@ -74,20 +79,15 @@ To connect your site to Griffith Library's Google Analytics account, you need to
 5. Click the Publish button.
 6. Choose 'Web'. A .zip file should start to download.
 7. Find the .zip file in your downloads folder and decompress it.
-9. Return to your GitHub repository and create a new folder (unless you are going to place the Rise content in the root directory of the repository).
-10. Copy the contents of the decompressed folder into the new folder in your repository. Don't copy the folder, just its contents!
-11. Commit your changes and wait for the publish Action to run.
+8. Return to your GitHub repository and create a new folder (don't put it in the root directory).
+9. Copy the contents of the decompressed folder into the new folder in your repository. Don't copy the folder, just its contents!
+10. Commit your changes and wait for the publish Action to run.
 
-
-
-Alternatively, you can simply upload the page and link directly to it, in which can it will appear in its own page at full screen.
+Once you've done that, you can either link directly to it, in which can it will appear in its own page at full screen, or you can embed it 
 
 [Link to rise content](rise/index.html)
 
 [Launch lesson](rise/index.html){: .btn }
-
-Nerdy tip: The product and company called 'Articulate' is [pronounced with a long 'a' at the end](https://community.articulate.com/discussions/articulate-storyline/articulate-pronunciation), like 'late'!
-{:. .note }
 
 ### Embedding a Rise module inside an existing page
 
