@@ -4,17 +4,25 @@ nav_order: 3
 layout: default
 ---
 
-# Embedding Articulate Rise content in GitHub
+# Articulate Rise
 {: .no_toc }
 
-Articulate can host Rise content on their own servers, but there are downsides to doing it that way.
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+Rise courses can be viewed on Articulate's servers or they can be exported and embedded on a GitHub page.
 {: .fs-6 .fw-300 }
 <!-- You can style the preceding line using .fs for font size and .fw for font weight -->
 
-To embed and Articulate Rise module into GitHub:
+It's less work to simply leave your Rise course on the Articulate website
 
-1. Create your GitHub repository. 
-2. Optionally choose a template that allows for Markdown editing, like Evan Williams' Workshop-B or Just The Docs.
+## Embedding an Articulate Rise course into GitHub:
+
+1. Create your GitHub repository.
+2. Optionally choose a template that allows for Markdown editing, like Evan Williams' [Workshop-B](https://github.com/evanwill/workshop-template-b), [Learn-Static](https://github.com/learn-static/lesson-template) or [Just The Docs](https://github.com/just-the-docs/just-the-docs).
 3. Turn on Pages in the repository settings (use the new actions option)
 4. Log in to rise.articulate.com and find the module you want to publish.
 5. Click the Publish button.
@@ -23,6 +31,10 @@ To embed and Articulate Rise module into GitHub:
 9. Return to your GitHub repository and create a new folder (unless you are going to place the Rise content in the root directory of the repository).
 10. Copy the contents of the decompressed folder into the new folder in your repository. Don't copy the folder, just its contents!
 11. Commit your changes and wait for the publish Action to run.
+
+Here's a short video on uploading a Rise course into its own repository: 
+
+<iframe src="https://player.vimeo.com/video/774945468?h=cd1b35bb2c" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 If you want to display Articulate Rise content in a GitHub page, you have two options:
 
@@ -51,3 +63,6 @@ Here's an example:
 Alternatively, you can simply upload the page and link directly to it, in which can it will appear in its own page at full screen.
 
 [Link to rise content](rise/index.html)
+
+Nerdy tip: The product and company called 'Articulate' is [pronounced with a long 'a' at the end](https://community.articulate.com/discussions/articulate-storyline/articulate-pronunciation), like 'late'!
+{:. .note }
