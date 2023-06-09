@@ -30,3 +30,9 @@ Here's an example:
 
 Again, note: 
 {:. .note }
+
+<div style="margin: 0 auto; width:100%; height:400px;">
+    <object type="text/html" data="storyline/story.html"
+            style="width:100%; height:100%; margin:1%;">
+    </object>
+</div>

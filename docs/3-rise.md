@@ -17,7 +17,7 @@ Rise courses can be viewed on Articulate's servers or they can be exported and e
 {: .fs-6 .fw-300 }
 <!-- You can style the preceding line using .fs for font size and .fw for font weight -->
 
-Nerdy tip: The product and company called 'Articulate' is [pronounced with a long 'a' at the end](https://community.articulate.com/discussions/articulate-storyline/articulate-pronunciation), like 'late'!
+'Articulate' is [pronounced with a long 'a' at the end](https://community.articulate.com/discussions/articulate-storyline/articulate-pronunciation), like 'late'!
 {:. .note }
 
 Although it's less work to simply leave your Rise course on the Articulate website, there are significant downsides to that approach: 
@@ -91,7 +91,7 @@ Once you've done that, you can either link directly to it, in which can it will 
 
 ### Embedding a Rise module inside an existing page
 
-Using the follwing code snippet, you can make the Rise object appear within your GitHub page.
+Using the following code snippet, you can make the Rise object appear within your GitHub page.
 
 ```
 <div style="margin: 0 auto; width:100%; height:400px;">
@@ -101,7 +101,10 @@ Using the follwing code snippet, you can make the Rise object appear within your
 </div>
 ```
 
-Here's an example:
+1. Create your repository as explained above and add a page to your site.
+
+
+> Here's how a Rise course looks when it's embedded in a page:
 
 <div style="margin: 0 auto; width:100%; height:400px;">
     <object type="text/html" data="rise/index.html"
